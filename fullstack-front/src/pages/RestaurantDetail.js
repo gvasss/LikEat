@@ -92,7 +92,7 @@ export default function RestaurantDetail() {
 
   const generateGoogleMapsEmbedUrl = (address) => {
     const encodedAddress = encodeURIComponent(address);
-    return `https://www.google.com/maps/embed/v1/place?key=AIzaSyAG-SZyG6mMrfhGHJPcc1y8mCFCYd3FWpU&q=${encodedAddress}`;
+    return `Google API Key`; //Put yours Google API Key
   };
 
   // const getMainPhoto = (photos) => {
